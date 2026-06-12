@@ -1,8 +1,8 @@
 //Console's Light Code extension
 //дополнение Лёгкого кода от Console
 
-#ifndef Consoles_LightCPP
-#define Consoles_LightCPP
+#ifndef Console_LightCPP
+#define Console_LightCPP
 
 #include <iostream>
 #include <cstdlib>

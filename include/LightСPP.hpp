@@ -15,10 +15,9 @@
 #include <random>
 
 using string = std::string;
-inline constexpr int end = 0;
 
 inline void print(auto val) {
-    std::cout << val << std::endl;
+    std::cout << val << "\n";
 }
 inline void write(auto val) {
     std::cout << val;
@@ -31,9 +30,9 @@ inline string input(string prompt = "") {
 }
 namespace math {
     inline int random(int min, int max) {
-    static std::mt19937 engine(std::random_device{}()); // создаем машину прямо тут
-    std::uniform_int_distribution<int> dist(min, max);
-    return dist(engine);
+    static std::mt19937 engine(std::random_device{}());
+    static std::uniform_int_distribution<int> dist;
+    return dist(engine, std::uniform_int_distribution<int>::param_type{min, max});
     }
 }
 #endif

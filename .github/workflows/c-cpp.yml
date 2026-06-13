@@ -15,7 +15,7 @@ jobs:
     - uses: actions/checkout@v4
     - name: Compile 
       run: |
-        echo '#include "include/LightCPP.hpp"
+        echo '#include "LightCPP.hpp"
         int main() { return 0; }' > test.cpp
         g++ -std=c++20 -Wall test.cpp -o test_app
       

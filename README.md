@@ -5,13 +5,13 @@ A Light-weight C++ library for fast coding
 ## API
 
 `print(Any arguments)`  
-**Alternative:** - `std::cout << text << std::endl;`  
+**Alternative:** `std::cout << text << std::endl;`  
 **Usage:** - Print all provided arguments.
 
 `write(text)`  
-**Alternative:** - `std::cout << text;`  
+**Alternative:** `std::cout << text;`  
 **Usage:** - Print text in the same line (without a line break).
 
 `input(string prompt)`  
-**Alternative:** - `std::getline(std::cin, input);`  
+**Alternative:** `std::getline(std::cin, input);`  
 **Usage:** - Display prompt and return entered text.

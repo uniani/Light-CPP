@@ -23,7 +23,7 @@ Inspired by Lua
 
 <br>
 
-`math::random(int min, int max)`
+`math::random(int min, int max)`  
 **Alternative:** `std::uniform_int_distribution<int>::param_type{min, max};`
 **Usage:** Returns random value in provided range.
 

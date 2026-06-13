@@ -14,15 +14,18 @@
 #include <cmath>
 #include <random>
 
+#ifndef LIGHTCPP_NO_SHORT_NAMES
 using string = std::string;
+#endif
 
-inline void print(auto val) {
-    std::cout << val << "\n";
+template <typename... Val>
+inline void print(Val... val) {
+    std::cout << ... << val << "\n";
 }
 inline void write(auto val) {
     std::cout << val;
 }
-inline string input(string prompt = "") {
+inline std::string input(std::string prompt = "") {
     std::cout << prompt;
     std::string inputed;
     std::getline(std::cin, inputed);

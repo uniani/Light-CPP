@@ -1,6 +1,7 @@
 # Light C++
 A Light-weight C++ library for fast coding  
-Inspired by Lua  
+Inspired by LUA
+
 ![CPP](https://img.shields.io/badge/%D0%A1%2B%2B%20Version-20%2B-blue?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 

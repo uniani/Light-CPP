@@ -39,4 +39,4 @@ Inspired by LUA
 `string`  
 **Instead of:** `std::string`
 > [!CAUTION]
-> **WARNING!** To prevent naming conflict, use `#define LIGHTCPP_NO_SHORT_NAMES` before including the library
+> To prevent naming conflict, use `#define LIGHTCPP_NO_SHORT_NAMES` before including the library
